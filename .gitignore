@@ -10,7 +10,7 @@ client/node_modules/
 
 # Build directories
 client/build/
-tourvelsm-frontend/build
+
 
 # Operating System files
 .DS_Store
