@@ -2,13 +2,14 @@
   "name": "tourvelsm",
   "version": "1.0.0",
   "scripts": {
-    "start": "node tourvelsm-backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix tourvelsm-frontend && npm run build --prefix tourvelsm-frontend"
-  },
+  "start": "node tourvelsm-backend/server.js",
+  "heroku-postbuild": "cross-env NPM_CONFIG_PRODUCTION=false npm install --prefix tourvelsm-frontend && npm run build --prefix tourvelsm-frontend"
+},
   "engines": {
     "node": "18.x"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "express": "^4.18.2"
   }
 }
