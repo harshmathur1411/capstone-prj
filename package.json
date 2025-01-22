@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node tourvelsm-backend/server.js",
-    "heroku-postbuild": "cd tourvelsm-frontend && npm install && npm run build && cp -r tourvelsm-frontend/build ../build"
+  "heroku-postbuild": "cd tourvelsm-frontend && npm install && npm run build"
   },
   "engines": {
     "node": "18.x"
