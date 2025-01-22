@@ -30,7 +30,7 @@ const AboutUs = () => {
     <Navbar />
     <BannerSection />
       <div className="container">
-      <section className="about-header">
+      <section className="about-header my-5">
         <h1>{aboutData.title}</h1>
         <p className="description">{aboutData.description}</p>
       </section>
