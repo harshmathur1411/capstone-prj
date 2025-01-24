@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build directories
+client/build/
+
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# NPM package-lock files (optional, but sometimes recommended)
+package-lock.json
