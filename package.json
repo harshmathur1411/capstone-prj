@@ -1,48 +1,27 @@
 {
-  "name": "capstone-project2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node tourvelsm-backend/server.js", 
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harshmathur1411/capstone-project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harshmathur1411/capstone-project/issues"
-  },
-  "homepage": "https://github.com/harshmathur1411/capstone-project#readme"
-}
-{
   "name": "tourvelsm-frontend",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@reduxjs/toolkit": "^2.5.0",
-    "axios": "^1.7.9",
-    "bootstrap": "^5.3.3",
-    "cra-template": "1.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.4.0",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.1.1",
-    "react-scripts": "^5.0.1",
-    "react-slick": "^0.30.3",
-    "react-slideshow-image": "^4.3.2",
-    "slick-carousel": "^1.8.1",
-    "tourvelsm": "file:..",
-    "web-vitals": "^4.2.4"
-  },
+ "dependencies": {
+  "@fortawesome/fontawesome-svg-core": "^6.7.2",
+  "@fortawesome/free-solid-svg-icons": "^6.7.2",
+  "@fortawesome/react-fontawesome": "^0.2.2",
+  "@reduxjs/toolkit": "^2.5.0",
+  "axios": "^1.7.9",
+  "bootstrap": "^5.3.3",
+  "cra-template": "1.2.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-icons": "^5.4.0",
+  "react-redux": "^9.2.0",
+  "react-router-dom": "^7.1.1",
+  "react-scripts": "^5.0.1",
+  "react-slick": "^0.30.3",
+  "react-slideshow-image": "^4.3.2",
+  "slick-carousel": "^1.8.1",
+  "web-vitals": "^4.2.4"
+},
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
