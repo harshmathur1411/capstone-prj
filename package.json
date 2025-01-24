@@ -1,4 +1,25 @@
 {
+  "name": "capstone-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tourvelsm-backend/server.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshmathur1411/capstone-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshmathur1411/capstone-project/issues"
+  },
+  "homepage": "https://github.com/harshmathur1411/capstone-project#readme"
+}
+{
   "name": "tourvelsm-frontend",
   "version": "0.1.0",
   "private": true,
